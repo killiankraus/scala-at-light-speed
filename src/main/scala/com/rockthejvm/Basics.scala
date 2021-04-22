@@ -9,7 +9,7 @@ object Basics extends App {
   val aBoolean = false // type is optional
 
   // strings and string operations
-  val aString = "I love Scala"
+  val aString: String = "I love Scala"
   val aComposedString = "I" + " " + "love" + " " + "Scala"
   val anInterpolatedString = s"The meaning of life is $meaningOfLife"
 
